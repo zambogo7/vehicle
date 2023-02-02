@@ -1,0 +1,105 @@
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Logo</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">New inventory</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Used Inventory</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Specials</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Sales</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Admin</a>
+                </li>
+            
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="container-fluid">
+        
+        <form class="make-form" action="">
+          <h3>Models</h3>
+          
+              <div class=" col mb-3">
+                <input type="text" class=" change-pass-field  form-control" placeholder=" New Model" aria-label="text">
+              </div>
+              <div class=" col mb-3">
+                  <input type="text" class=" change-pass-field  form-control" placeholder=" Make" aria-label="text">
+                </div>
+            
+            <button type="submit "class="btn btn-primary">Save</button>
+        </form>
+  
+        <table class="table-makes table table-bordered">
+          <thead>
+            <tr>
+              <th scope="col">Make</th>
+              <th scope="col">model</th>
+              <th scope="col">Date Added</th>
+              <th scope="col">User</th>
+         
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              
+              <td>Audi</td>
+              <td>A4</td>
+              <td>1/2/2023</td>
+              <td>zambogo@zambogo.com</td>
+            </tr>
+            <tr>
+              
+              <td>Mazda</td>
+              <td>A5</td>
+              <td>2/3/2022</td>
+              <td>zeddy@fat.com</td>
+            </tr>
+            <tr>
+              <td>VRav4</td>
+              <td>Spider</td>
+              <td >2/2/2022</td>
+              <td>tech@twitter.com</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <router-outlet></router-outlet>
