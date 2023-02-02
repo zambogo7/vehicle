@@ -23,7 +23,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 
 
 const routes: Routes = [
-  {path: 'index', component: IndexComponent },
+  {path: 'homw', component: IndexComponent },
   { path: '',   redirectTo: '', pathMatch: 'full' },
   {path: 'new', component: NewComponent},
   {path: 'used', component: UsedComponent},
@@ -43,9 +43,9 @@ const routes: Routes = [
   {path: 'new', component: InventoryComponent},
 
   {path: 'inventory', component: InventoryComponent},
-  {path: 'home', component: InventoryComponent},
-  {path: 'sales', component: InventoryComponent},
-  {path: 'admin', component: InventoryComponent},
+  {path: 'home', component: IndexComponent},
+  {path: 'sales', component: SalesComponent},
+  // {path: 'admin', component: InventoryComponent},
 
 
 ];
